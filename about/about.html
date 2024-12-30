@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Subhedar Resturant</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000000;
+            color: #ffffff;
+        }
+
+        header {
+            background-color: #6a1b9a;
+            color: white;
+            padding: 1rem 2rem;
+            text-align: center;
+        }
+
+        .about-section {
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .about-section h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .about-section p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            margin-bottom: 1.5rem;
+        }
+
+        .team {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            flex-wrap: wrap;
+        }
+
+        .team-member {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 1rem;
+            width: 250px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .team-member img {
+            width: 100%;
+            border-radius: 50%;
+            margin-bottom: 1rem;
+        }
+
+        .team-member h3 {
+            margin: 0.5rem 0;
+        }
+
+        .team-member p {
+            font-size: 0.9rem;
+            color: #555;
+        }
+
+        footer {
+            background-color: #6a1b9a;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+
+        .footer-year {
+            font-weight: bold;
+        }
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const yearSpan = document.querySelector(".footer-year");
+            const currentYear = new Date().getFullYear();
+            yearSpan.textContent = currentYear;
+        });
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Subhedar Resturant</h1>
+    </header>
+
+    <section class="about-section">
+        <h1>About Us</h1>
+        <p>
+            At Gourmet Delight, we believe food is more than just nourishment; it's an experience to be savored. Located in the heart of downtown, our restaurant offers a blend of traditional flavors and modern cuisine, served with warmth and care.
+        </p>
+        <p>
+            Our mission is to create a memorable dining journey for every guest, combining locally sourced ingredients with innovative recipes. Whether you're here for a casual lunch or a celebratory dinner, Gourmet Delight is here to make it special.
+        </p>
+
+        <div class="team">
+            <div class="team-member">
+                <img src="chef.jpg" alt="Head Chef">
+                <h3>John Doe</h3>
+                <p>Head Chef & Culinary Artist</p>
+            </div>
+            <div class="team-member">
+                <img src="manager.jpg" alt="Restaurant Manager">
+                <h3>Jane Smith</h3>
+                <p>Restaurant Manager & Hospitality Expert</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; <span class="footer-year"></span> Subhedar Restaurant. All rights reserved.</p>
+    </footer>
+</body>
+</html>

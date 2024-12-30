@@ -1,0 +1,285 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("loginbg.jpg");
+    margin: 0;
+    height: 100vh;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+
+}
+
+/* Utility */
+
+.flex {
+    display: flex;
+}
+
+/* main login container */
+
+.logincontainermain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+
+}
+
+/* Guest section */
+.guest{
+    background-color: bisque;
+    height: 30px;
+    width: 150px;
+    display: block;
+    position: relative;
+    top: 20px;
+    left: 1050px;
+    position: sticky;
+    margin: px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.7;
+    border-radius: 20px;
+    border: 3px solid rgb(255, 255, 0);
+    
+    
+}
+
+.guest a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.guest:hover{
+    background-color: rgb(112, 82, 167);
+    height: 32px;
+    width: 160px; 
+    
+          
+}
+
+
+
+
+/* Login container */
+
+.log_logo img{
+    height: 80px;
+    width: 80px;
+    margin: 1px;
+}
+
+.logincontainer {
+    background-color: white;
+    height: 500px;
+    width: 500px;
+    opacity: 0.8;
+    border-radius: 8px;
+    text-align: center;
+
+
+}
+
+.logincontainer * {
+    margin-top: 20px;
+}
+
+/* Login head */
+
+.loginhead {
+    background-color: rgb(0, 0, 0);
+    height: 35px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.9;
+
+}
+
+.loginhead h2 {
+    color: rgb(31, 255, 83);
+    opacity: 1;
+}
+
+/* Email section */
+
+.Email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Email h3 {
+    font-size: 20px;
+    /* font-weight: 900; */
+    font-family: cursive;
+
+}
+
+
+.Email input {
+    margin-left: 15px;
+    height: 40px;
+    width: 240px;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.Email input:hover{
+    background-color: rgb(179, 179, 205);
+    color: rgb(0, 0, 0);
+}
+
+.email_img {
+    background-color: rgb(211, 211, 211);
+    width: 50px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+
+}
+
+.email_img img {
+    height: 27px;
+    width: 27px;
+    margin-bottom: 16px;
+}
+
+
+/* Password Section */
+
+.Password {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2px;
+}
+
+.Password h3 {
+    font-size: 20px;
+    font-family: cursive;
+
+}
+
+
+.Password input {
+    margin-left: 15px;
+    height: 40px;
+    width: 240px;
+}
+
+.Password input:hover{
+    background-color: rgb(179, 179, 205);
+    color: rgb(0, 0, 0);
+}
+
+.password_img {
+    background-color: rgb(211, 211, 211);
+    width: 50px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+
+}
+
+
+
+.password_img img {
+    height: 27px;
+    width: 27px;
+    margin-bottom: 16px;
+}
+
+/* Login button section */
+
+.loginbtn {}
+
+.loginbtn button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 43px;
+    width: 70px;
+    margin-left: 220px;
+    margin-right: 220px;
+    color: rgb(255, 254, 254);
+    background-color: black;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: sans-serif;
+
+}
+
+.loginbtn button:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(40, 190, 78);
+    height: 45px;
+    width: 72px;
+}
+
+
+
+
+
+/* Borderr section */
+
+.borderr{
+    background-color: black;
+    height: 2px;
+    
+    margin: 40px;
+}
+
+/* Footer section */
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.footer * {
+    margin-top:0;
+    margin-left: 20px;
+}
+
+.create a {
+    margin-left: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+}
+
+.create a:hover{
+    color: rgb(9, 5, 70);
+}
+
+.create{
+    margin-right: 20px;
+}
+
+.forgot a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+    
+}
+
+.forgot a:hover{
+    color: rgb(9, 5, 70);
+}
+
+/* media Query */

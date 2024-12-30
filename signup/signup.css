@@ -1,0 +1,325 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("signupbg.jpg");
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+/* Utility */
+
+.flex {
+    display: flex;
+}
+
+/* Login container */
+
+
+
+.signupcontainer {
+    background-color: white;
+    height: 520px;
+    width: 500px;
+    opacity: 0.8;
+    border-radius: 8px;
+    text-align: center;
+    position: absolute;
+    overflow: scroll;
+
+
+
+
+}
+
+.signupcontainer * {
+    margin-top: 15px;
+}
+
+/* Logo section */
+
+.log_logo img {
+    height: 80px;
+    width: 80px;
+    margin: 1px;
+}
+
+/* Head Section */
+
+.createhead {
+    background-color: rgb(6, 13, 4);
+    height: 30px;
+
+}
+
+.createhead h2 {
+    color: rgb(255, 255, 255);
+
+}
+
+/* Name section */
+
+.name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 19px;
+}
+
+.name h3 {
+    font-size: 20px;
+
+}
+
+
+.name input {
+    margin-left: 15px;
+    height: 40px;
+    width: 240px;
+}
+
+
+
+/* email section */
+
+.email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 19px;
+}
+
+.email h3 {
+    font-size: 20px;
+
+}
+
+
+.email input {
+    margin-left: 15px;
+    height: 40px;
+    width: 240px;
+}
+
+
+/* phone section */
+
+.phone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 19px;
+}
+
+.phone h3 {
+    font-size: 20px;
+
+}
+
+
+.phone input {
+    margin-left: 15px;
+    height: 40px;
+    width: 240px;
+}
+
+
+
+
+/* Gender section */
+
+.gender {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 19px;
+}
+
+.gender h3 {
+    font-size: 20px;
+
+}
+
+
+.gender input {
+    margin-left: 10px;
+    height: 15px;
+    width: 15px;
+    
+}
+
+
+
+
+
+
+
+
+/* DOB section */
+
+.dob {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 19px;
+}
+
+.dob h3 {
+    font-size: 20px;
+
+}
+
+
+.dob input {
+    margin-left: 15px;
+    height: 40px;
+    width: 240px;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+/* verify section */
+
+.state {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 19px;
+}
+
+.state h3 {
+    font-size: 20px;
+
+}
+
+
+.state select {
+    margin-left: 15px;
+    height: 40px;
+    width: 240px;
+}
+
+
+
+
+/* city section */
+
+.city {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 19px;
+}
+
+.city h3 {
+    font-size: 20px;
+
+}
+
+
+.city select {
+    margin-left: 15px;
+    height: 40px;
+    width: 240px;
+}
+
+
+
+/* pincode section */
+
+.pincode {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 19px;
+}
+
+.pincode h3 {
+    font-size: 20px;
+
+}
+
+
+.pincode input {
+    margin-left: 15px;
+    height: 40px;
+    width: 240px;
+}
+
+
+/* create_password section */
+
+.create_password {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 19px;
+}
+
+.create_password h3 {
+    font-size: 20px;
+
+}
+
+
+.create_password input {
+    margin-left: 15px;
+    height: 40px;
+    width: 240px;
+}
+
+
+
+/* cofirm_password */
+
+.cofirm_password {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 19px;
+}
+
+.cofirm_password h3 {
+    font-size: 20px;
+
+}
+
+
+.cofirm_password input {
+    margin-left: 15px;
+    height: 40px;
+    width: 240px;
+}
+
+
+/* create btn section */
+
+.createbtn button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 43px;
+    width: 180px;
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-top: 40px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(31, 244, 105);
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 700;
+
+}
